@@ -27,7 +27,8 @@
                     android:background="@drawable/edit_text_border"
                     android:ems="10"
                     android:hint="@string/enter_otp"
-                    android:inputType="phone"
+                     android:textColor="@color/black"
+                    android:inputType="number"
                     android:paddingLeft="10dp"
                     android:textAlignment="center"
                     android:textColorHint="@color/grey">
