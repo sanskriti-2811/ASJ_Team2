@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Medical App</string>
+    <string name="button_text">GET OTP</string>
+    <string name="phone">Phone Number</string>
+    <string name="get_otp">GET OTP</string>
+    <string name="enter_otp">Enter OTP</string>
+</resources>
