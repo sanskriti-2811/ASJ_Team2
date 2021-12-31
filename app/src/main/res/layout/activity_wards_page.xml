@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    android:background="@color/cool"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/et1"
+        android:layout_width="407dp"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="Biomedical Waste Audit"
+        android:textAlignment="center"
+        android:textColor="@color/grey"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/et2"
+        android:layout_width="407dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et1"
+        android:gravity="center_horizontal"
+        android:text="3-Jan-2022"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/et3"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="57dp"
+        android:text="BLOCK"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_below="@+id/et3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/searchview_bg"
+        android:drawableLeft="@drawable/ic_baseline_search_24"
+        android:drawablePadding="5dp"
+        android:textColor="@color/black"
+        android:hint="Enter Ward Name"
+        android:padding="8dp"
+        android:textColorHint="@color/black" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/etSearch"
+        android:divider="@color/black"
+        android:dividerHeight="2dp"
+        android:listSelector="@color/cool"
+        android:visibility="visible" />
+</RelativeLayout>
