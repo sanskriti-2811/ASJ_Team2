@@ -10,5 +10,13 @@
     <color name="cool">#7BD9F6</color>
     <color name="grey">#A9A9A9</color>
     <color name="blue">#009AEE</color>
+    <color name="lightblue">#93e1e4</color>
+    <color name="darkblue">#1f4a7a</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow">#FFA701</color>
+    <color name="green">#006400</color>
+
+
+
 
 </resources>

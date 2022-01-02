@@ -3,11 +3,10 @@
     android:id="@+id/item_text"
     android:textSize="24sp"
     android:textColor="@color/black"
-    android:background="@drawable/firstbg"
     android:fontFamily="sans-serif-medium"
     android:paddingLeft="15dp"
-    android:text="india"
     android:layout_width="match_parent"
-    android:layout_height="30dp">
+    android:layout_height="30dp" >
 
 </TextView>
+

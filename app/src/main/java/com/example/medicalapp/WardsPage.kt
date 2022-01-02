@@ -1,8 +1,10 @@
 package com.example.medicalapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
+import android.widget.AdapterView.OnItemClickListener
 import android.widget.ArrayAdapter
 import android.widget.EditText
 import android.widget.ListView
@@ -10,6 +12,8 @@ import androidx.appcompat.app.AppCompatActivity
 
 
 class WardsPage : AppCompatActivity() {
+
+
     lateinit var listView: ListView
     var wards: ArrayList<String> = ArrayList()
     var arrayAdapter: ArrayAdapter<String>? = null
@@ -38,7 +42,8 @@ class WardsPage : AppCompatActivity() {
         wards.add("COVID ICU 11")
 
 
-        arrayAdapter = ArrayAdapter(this, android.R.layout.activity_list_item, android.R.id.text1, wards)
+
+        arrayAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, wards)
         listView.adapter = arrayAdapter
         etSearch.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {}
@@ -47,5 +52,16 @@ class WardsPage : AppCompatActivity() {
             }
             override fun afterTextChanged(s: Editable) {}
         })
+
+        listView.onItemClickListener =
+            OnItemClickListener { parent, view, position, id ->
+                if (position == 1) {
+                    val myIntent = Intent(view.context, BioMedicalWasteAudit::class.java)
+                    startActivityForResult(myIntent, 0)
+                }
+
+            }
     }
+
+
 }
