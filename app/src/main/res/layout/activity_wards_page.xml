@@ -4,12 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="4dp"
-    android:background="@color/cool"
+    android:background="@color/lightblue"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/et1"
-        android:layout_width="407dp"
+        android:layout_width="412dp"
         android:layout_height="46dp"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="0dp"
@@ -29,7 +29,7 @@
         android:gravity="center_horizontal"
         android:text="3-Jan-2022"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/darkblue"
         android:textSize="16sp" />
 
     <TextView
@@ -45,7 +45,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="57dp"
         android:text="BLOCK"
-        android:textColor="@color/black"
+        android:textColor="@color/darkblue"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -72,8 +72,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/etSearch"
+        android:cacheColorHint="#03A9F4"
         android:divider="@color/black"
         android:dividerHeight="2dp"
-        android:listSelector="@color/cool"
+        android:listSelector="@color/darkblue"
         android:visibility="visible" />
+
+
 </RelativeLayout>
