@@ -6,7 +6,7 @@
     android:padding="10dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/secondbg"
+    android:background="@drawable/background"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -16,26 +16,31 @@
         android:layout_marginTop="20dp"
         android:orientation="vertical" >
 
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:layout_width="368dp"
+            android:layout_height="150dp"
+            android:src="@drawable/login" />
 
+        <TextView
+            style="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:padding="8dp"
+            android:text="Phone Number"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
 
-    <TextView
-        style="@style/TextAppearance.MaterialComponents.Subtitle1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:padding="8dp"
-        android:text="Phone Number"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-         />
-
-    <TextView
+        <TextView
         style="@style/TextAppearance.MaterialComponents.Caption"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Please enter your phone number: "
         android:textAlignment="center"
-        android:textColor="@color/blue" />
+        android:textColor="@color/darkblue" />
 
     <EditText
         android:id="@+id/phoneEt"
@@ -76,6 +81,7 @@
 
     </LinearLayout>
 
+
     </LinearLayout>
 
 <!---222-->
@@ -87,13 +93,19 @@
         android:layout_marginTop="20dp"
         android:orientation="vertical" >
 
-
+        <ImageView
+            android:id="@+id/otp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:layout_width="368dp"
+            android:layout_height="150dp"
+            android:src="@drawable/otp" />
 
     <TextView
         style="@style/TextAppearance.MaterialComponents.Subtitle1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="0dp"
         android:padding="8dp"
         android:text="Verification Code"
         android:textAlignment="center"
@@ -130,7 +142,7 @@
         android:padding="5dp"
         android:textAlignment="center"
         android:text="@string/did_t_get_otp_resend"
-        android:textColor="@color/black" />
+        android:textColor="@color/darkblue" />
 
 
     <LinearLayout
