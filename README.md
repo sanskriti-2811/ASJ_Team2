@@ -15,9 +15,9 @@ This project proposes a “Medical App”  in which they can save all informatio
 <img width="350" height= "600" alt="sampleimages" src="https://github.com/sneha-chauhan/ASJ_Team2/blob/master/Login%20Page.jpeg">
 <img width="350" height= "600" alt="sampleimages" src="https://github.com/sneha-chauhan/ASJ_Team2/blob/master/Login%20Page%20(2).jpeg">
 <img width="350" height= "600" alt="sampleimages" src="https://github.com/sneha-chauhan/ASJ_Team2/blob/master/OTP.jpeg">
-<img width="350" height= "600" alt="https://github.com/sneha-chauhan/ASJ_Team2/blob/master/Search.jpeg">
-<img width="350" height= "600" alt="https://github.com/sneha-chauhan/ASJ_Team2/blob/master/Select%20Wards%20Page.jpeg">
-<img width="350" height= "600" alt="https://github.com/sneha-chauhan/ASJ_Team2/blob/master/Separate%20wastes.jpeg">
+<img width="350" height= "600" src="https://github.com/sneha-chauhan/ASJ_Team2/blob/master/Search.jpeg">
+<img width="350" height= "600" src="https://github.com/sneha-chauhan/ASJ_Team2/blob/master/Select%20Wards%20Page.jpeg">
+<img width="350" height= "600" src="https://github.com/sneha-chauhan/ASJ_Team2/blob/master/Separate%20wastes.jpeg">
 
     	  
     	  	
