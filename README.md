@@ -11,13 +11,15 @@ Technology plays a vital role in day-to-day life activities which in turn made g
 <b> Proposed Solution : </b>
 
 This project proposes a “Medical App”  in which they can save all information of various kinds of waste generated in the respective wards on just simple clicking and saving.
+<p float="left">
 <img width="350" height= "650" alt="sampleimages" src="https://github.com/sneha-chauhan/ASJ_Team2/blob/master/First%20Screen.jpeg">
-<img width="350" height= "650" padding = "10" alt="sampleimages" src="https://github.com/sneha-chauhan/ASJ_Team2/blob/master/Login%20Page.jpeg">
+<img width="350" height= "650" alt="sampleimages" src="https://github.com/sneha-chauhan/ASJ_Team2/blob/master/Login%20Page.jpeg">
 <img width="350" height= "650" alt="sampleimages" src="https://github.com/sneha-chauhan/ASJ_Team2/blob/master/Login%20Page%20(2).jpeg">
 <img width="350" height= "650" alt="sampleimages" src="https://github.com/sneha-chauhan/ASJ_Team2/blob/master/OTP.jpeg">
 <img width="350" height= "650" src="https://github.com/sneha-chauhan/ASJ_Team2/blob/master/Search.jpeg">
 <img width="350" height= "650" src="https://github.com/sneha-chauhan/ASJ_Team2/blob/master/Select%20Wards%20Page.jpeg">
 <img width="350" height= "650" src="https://github.com/sneha-chauhan/ASJ_Team2/blob/master/Separate%20wastes.jpeg">
+</p>
 
     	  
     	  	
