@@ -24,5 +24,5 @@ This project proposes a “Medical App”  in which they can save all informatio
 
 <b> Application Link & Future Scope : </b>
 
-The app is currently in the Alpha testing phase with a limited no. of users, You can access the app : [YOUR APP LINK HERE](either Github link or Google Play store link of published app or .apk file).
+The app is currently in the Alpha testing phase with a limited no. of users, You can access the app : https://github.com/sneha-chauhan/ASJ_Team2 .
 
