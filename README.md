@@ -49,3 +49,5 @@ This project proposes a “Medical App”  in which they can save all informatio
 
 The app is currently in the Alpha testing phase with a limited no. of users, You can access the app : https://github.com/sneha-chauhan/ASJ_Team2 .
 
+Since, now the app contains only one ward page information it can be extended further to cover all the wards. And the data entered by the user can also be saved in firebase.
+
