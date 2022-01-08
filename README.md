@@ -12,7 +12,12 @@ Technology plays a vital role in day-to-day life activities which in turn made g
 
 This project proposes a “Medical App”  in which they can save all information of various kinds of waste generated in the respective wards on just simple clicking and saving.
 <p float="left">
-<kbd> <img width="350" height= "650" alt="sampleimages" src="https://github.com/sneha-chauhan/ASJ_Team2/blob/master/First%20Screen.jpeg"> </kbd>
+    <div style="margin-right: 10px;">
+
+      <kbd> <img width="350" height= "650" alt="sampleimages" src="https://github.com/sneha-chauhan/ASJ_Team2/blob/master/First%20Screen.jpeg"> </kbd>
+
+   </div>
+
 <kbd><img width="350" height= "650" alt="sampleimages" src="https://github.com/sneha-chauhan/ASJ_Team2/blob/master/Login%20Page.jpeg"></kbd>
 <kbd><img width="350" height= "650" alt="sampleimages" src="https://github.com/sneha-chauhan/ASJ_Team2/blob/master/Login%20Page%20(2).jpeg"></kbd>
 <kbd><img width="350" height= "650" alt="sampleimages" src="https://github.com/sneha-chauhan/ASJ_Team2/blob/master/OTP.jpeg"></kbd>
