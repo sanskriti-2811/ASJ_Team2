@@ -23,7 +23,7 @@ class WardsPage : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_wards_page)
 
-        title = "KotlinApp"
+        title = "Medical App"
         listView = findViewById(R.id.listView)
         etSearch = findViewById(R.id.etSearch)
         wards.add("COVID ICU 1")

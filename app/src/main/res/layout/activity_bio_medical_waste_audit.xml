@@ -27,6 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tv1"
         android:layout_alignParentEnd="true"
+        android:layout_marginTop="-4dp"
         android:layout_marginEnd="0dp"
         android:background="@color/blue"
         android:paddingLeft="8dp"
@@ -64,7 +65,7 @@
         android:textStyle="bold"
         android:text="SEGREGATION OF BIOMEDICAL WASTE"
         android:textAlignment="viewStart"
-        android:textColor="@color/darkblue"
+        android:textColor="@color/orange"
         android:textSize="16sp" />
 
     <TextView
@@ -79,7 +80,7 @@
         android:paddingBottom="5dp"
         android:text="General Waste: "
         android:textAlignment="viewStart"
-        android:textColor="@color/red"
+        android:textColor="@color/black"
         android:textSize="16sp" />
 
     <CheckBox
@@ -90,9 +91,9 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="199dp"
-        android:buttonTint="#F44336"
+        android:buttonTint="#009AEE"
         android:text="Yes"
-        android:textColor="@color/red"
+        android:textColor="@color/black"
         android:textColorLink="#2196F3"
         android:textSize="16sp" />
 
@@ -104,9 +105,9 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="88dp"
-        android:buttonTint="#F44336"
+        android:buttonTint="#009AEE"
         android:text="No"
-        android:textColor="@color/red"
+        android:textColor="@color/black"
         android:textColorLink="#2196F3"
         android:textSize="16sp" />
 
@@ -118,9 +119,9 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="34dp"
         android:layout_marginEnd="-10dp"
-        android:buttonTint="#F44336"
+        android:buttonTint="#009AEE"
         android:text="Not Applicable"
-        android:textColor="@color/red"
+        android:textColor="@color/black"
         android:textColorLink="#2196F3"
         android:textSize="16sp"
         app:layout_constraintTop_toTopOf="@+id/tv4"
@@ -138,7 +139,7 @@
         android:paddingBottom="5dp"
         android:text="Infected Plastics: "
         android:textAlignment="viewStart"
-        android:textColor="@color/yellow"
+        android:textColor="@color/black"
         android:textSize="16sp" />
 
     <CheckBox
@@ -149,9 +150,9 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="7dp"
         android:layout_marginEnd="200dp"
-        android:buttonTint="#FFC107"
+        android:buttonTint="#009AEE"
         android:text="Yes"
-        android:textColor="@color/yellow"
+        android:textColor="@color/black"
         android:textColorLink="#2196F3"
         android:textSize="16sp" />
 
@@ -163,9 +164,9 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="105dp"
         android:layout_marginEnd="85dp"
-        android:buttonTint="#FFC107"
+        android:buttonTint="#009AEE"
         android:text="No"
-        android:textColor="@color/yellow"
+        android:textColor="@color/black"
         android:textColorLink="#2196F3"
         android:textSize="16sp" />
 
@@ -177,9 +178,9 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="107dp"
         android:layout_marginEnd="-10dp"
-        android:buttonTint="#FFC107"
+        android:buttonTint="#009AEE"
         android:text="Not Applicable"
-        android:textColor="@color/yellow"
+        android:textColor="@color/black"
         android:textColorLink="#2196F3"
         android:textSize="16sp"
         app:layout_constraintTop_toTopOf="@+id/tv4"
@@ -197,7 +198,7 @@
         android:paddingBottom="5dp"
         android:text="Infected Waste: "
         android:textAlignment="viewStart"
-        android:textColor="@color/darkblue"
+        android:textColor="@color/black"
         android:textSize="16sp" />
 
     <CheckBox
@@ -208,9 +209,9 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="7dp"
         android:layout_marginEnd="200dp"
-        android:buttonTint="#2196F3"
+        android:buttonTint="#009AEE"
         android:text="Yes"
-        android:textColor="@color/darkblue"
+        android:textColor="@color/black"
         android:textColorLink="#2196F3"
         android:textSize="16sp" />
 
@@ -222,9 +223,9 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="6dp"
         android:layout_marginEnd="86dp"
-        android:buttonTint="#2196F3"
+        android:buttonTint="#009AEE"
         android:text="No"
-        android:textColor="@color/darkblue"
+        android:textColor="@color/black"
         android:textColorLink="#2196F3"
         android:textSize="16sp" />
 
@@ -236,9 +237,9 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="7dp"
         android:layout_marginEnd="-8dp"
-        android:buttonTint="#2196F3"
+        android:buttonTint="#009AEE"
         android:text="Not Applicable"
-        android:textColor="@color/darkblue"
+        android:textColor="@color/black"
         android:textColorLink="#2196F3"
         android:textSize="16sp"
         app:layout_constraintTop_toTopOf="@+id/tv7"
@@ -256,7 +257,7 @@
         android:paddingBottom="5dp"
         android:text="Glassware: "
         android:textAlignment="viewStart"
-        android:textColor="@color/green"
+        android:textColor="@color/black"
         android:textSize="16sp" />
 
     <CheckBox
@@ -267,9 +268,9 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="7dp"
         android:layout_marginEnd="200dp"
-        android:buttonTint="#1A571C"
+        android:buttonTint="#009AEE"
         android:text="Yes"
-        android:textColor="@color/green"
+        android:textColor="@color/black"
         android:textColorLink="#2196F3"
         android:textSize="16sp" />
 
@@ -281,9 +282,9 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="6dp"
         android:layout_marginEnd="83dp"
-        android:buttonTint="#1A571C"
+        android:buttonTint="#009AEE"
         android:text="No"
-        android:textColor="@color/green"
+        android:textColor="@color/black"
         android:textColorLink="#2196F3"
         android:textSize="16sp" />
 
@@ -295,18 +296,33 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="-6dp"
-        android:buttonTint="#1A571C"
+        android:buttonTint="#009AEE"
         android:text="Not Applicable"
-        android:textColor="@color/green"
+        android:textColor="@color/black"
         android:textColorLink="#2196F3"
         android:textSize="16sp"
         app:layout_constraintTop_toTopOf="@+id/tv8"
         tools:layout_editor_absoluteX="382dp" />
 
+
+    <ImageButton
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="339dp"
+        android:background="@color/white"
+        android:src="@drawable/logout" />
+
     <ImageView
         android:id="@+id/logo"
+        android:foregroundGravity="center_horizontal"
         android:layout_width="wrap_content"
-        android:layout_height="197dp"
+        android:layout_height="176dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
@@ -314,6 +330,7 @@
         android:layout_marginEnd="86dp"
         android:layout_marginBottom="-16dp"
         android:src="@drawable/logo" />
+
 
 
 </RelativeLayout>

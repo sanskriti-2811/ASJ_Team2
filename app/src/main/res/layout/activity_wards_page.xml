@@ -75,7 +75,7 @@
         android:cacheColorHint="#03A9F4"
         android:divider="@color/black"
         android:dividerHeight="2dp"
-        android:listSelector="@color/darkblue"
+        android:listSelector="@color/blue"
         android:visibility="visible" />
 
     <ImageView
