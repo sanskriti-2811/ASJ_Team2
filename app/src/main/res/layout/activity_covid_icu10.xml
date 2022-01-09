@@ -31,7 +31,7 @@
         android:background="@color/blue"
         android:paddingLeft="8dp"
         android:paddingBottom="5dp"
-        android:text="Area Name: COVID ICU"
+        android:text="Area Name: COVID ICU 10"
         android:textAlignment="viewStart"
         android:textColor="@color/white"
         android:textSize="16sp" />
