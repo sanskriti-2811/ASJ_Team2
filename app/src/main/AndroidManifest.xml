@@ -13,6 +13,39 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MedicalApp">
         <activity
+            android:name=".CovidICU10"
+            android:exported="false" />
+        <activity
+            android:name=".CovidICU109"
+            android:exported="false" />
+        <activity
+            android:name=".CovidICU108"
+            android:exported="false" />
+        <activity
+            android:name=".CovidICU107"
+            android:exported="false" />
+        <activity
+            android:name=".CovidICU106"
+            android:exported="false" />
+        <activity
+            android:name=".CovidICU105"
+            android:exported="false" />
+        <activity
+            android:name=".CovidICU103"
+            android:exported="false" />
+        <activity
+            android:name=".CovidICU102"
+            android:exported="false" />
+        <activity
+            android:name=".CovidICU104"
+            android:exported="false" />
+        <activity
+            android:name=".CovidICU101"
+            android:exported="false" />
+        <activity
+            android:name=".CovidICU100"
+            android:exported="false" />
+        <activity
             android:name=".covidICU1"
             android:exported="false" />
         <activity
