@@ -108,11 +108,11 @@ class WardsPage : AppCompatActivity() {
                     val myIntent = Intent(view.context, CovidICU109::class.java)
                     startActivityForResult(myIntent, 0)
                 }
-                else if (position == 13) {
-                    val myIntent = Intent(view.context, CovidICU11::class.java)
+                else if(position==13){
+                    val myIntent = Intent(view.context, covidICU1::class.java)
                     startActivityForResult(myIntent, 0)
                 }
-                else {}
+
 
             }
     }
