@@ -55,6 +55,10 @@ class WardsPage : AppCompatActivity() {
 
         listView.onItemClickListener =
             OnItemClickListener { parent, view, position, id ->
+                if (position == 0) {
+                    val myIntent = Intent(view.context, covidICU1::class.java)
+                    startActivityForResult(myIntent, 0)
+                }
                 if (position == 1) {
                     val myIntent = Intent(view.context, BioMedicalWasteAudit::class.java)
                     startActivityForResult(myIntent, 0)
