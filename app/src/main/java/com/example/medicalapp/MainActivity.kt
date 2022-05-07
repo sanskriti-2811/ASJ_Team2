@@ -167,7 +167,7 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Logged in as $phone", Toast.LENGTH_SHORT).show()
 
                 //start new activity
-                startActivity(Intent(this, WardsPage::class.java))
+                startActivity(Intent(this, SelectChoice_Page::class.java))
                 finish()
             }
              .addOnFailureListener{ e->

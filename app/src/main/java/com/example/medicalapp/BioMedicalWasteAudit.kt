@@ -1,30 +1,19 @@
 package com.example.medicalapp
 
+import android.content.Intent
 import android.os.Bundle
-import android.os.PersistableBundle
-import android.view.View
 import android.view.View.GONE
 import android.view.View.VISIBLE
 import android.widget.Button
 import android.widget.CheckBox
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.medicalapp.databinding.ActivityBioMedicalWasteAuditBinding
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.database.ktx.database
+import com.google.firebase.ktx.Firebase
 
 class BioMedicalWasteAudit : AppCompatActivity() {
-
-    override fun onCreate(savedInstanceState: Bundle?, persistentState: PersistableBundle?) {
-        super.onCreate(savedInstanceState, persistentState)
-
-
-
-
-
-    }
-
-
-
 
 
    private lateinit var binding: ActivityBioMedicalWasteAuditBinding
@@ -36,8 +25,9 @@ class BioMedicalWasteAudit : AppCompatActivity() {
         binding = ActivityBioMedicalWasteAuditBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-       /* val database = FirebaseDatabase.getInstance()
-        val myRef = database.getReference("Waste")*/
+        /*val database = FirebaseDatabase.getInstance()
+        val myRef = database.getReference("Waste")
+        myRef.setValue("Hello World!!")*/
 
         val c1 = findViewById<CheckBox>(R.id.checkBox)
         val c2 = findViewById<CheckBox>(R.id.checkBox2)
@@ -51,10 +41,6 @@ class BioMedicalWasteAudit : AppCompatActivity() {
         val c10 = findViewById<CheckBox>(R.id.checkBox10)
         val c11 = findViewById<CheckBox>(R.id.checkBox11)
         val c12 = findViewById<CheckBox>(R.id.checkBox12)
-
-
-
-        val btn = findViewById<Button>(R.id.Save)
 
         val av1 = findViewById<CheckBox>(R.id.checkBoxav1)
         val av2 = findViewById<CheckBox>(R.id.checkBoxav2)
@@ -116,38 +102,46 @@ class BioMedicalWasteAudit : AppCompatActivity() {
         }
 
 
-
-
+        val btn = findViewById<Button>(R.id.Save)
 
 
         //on clicking button check the states of Checkboxes
-        btn.setOnClickListener(View.OnClickListener {
-        if (c1.isChecked){
-            var str: String = ""
-            val database = FirebaseDatabase.getInstance()
-            val myRef = database.getReference("General Waste")
-            str += " YES "
-            myRef.child("1").setValue(str)
+        btn.setOnClickListener {
 
-        }
+
+            if (c1.isChecked){
+                val database = Firebase.database
+                val myRef = database.getReference("General Waste")
+                var str: String = ""
+                str += " Segregated "
+                myRef.child("Available").child("1").setValue(str)
+               /* val database = Firebase.database
+                val myRef = database.getReference("message")
+                myRef.setValue("Hello, World!")*/
+                Toast.makeText(this, "Choices Saved Successfully", Toast.LENGTH_SHORT).show()
+            }
+
             if (c2.isChecked){
+                val database = Firebase.database
+                val myRef = database.getReference("General Waste")
                 var str: String = ""
+                str += " Unsegregated "
+                myRef.child("Available").child("2").setValue(str)
+              /*  var str: String = ""
                 val database = FirebaseDatabase.getInstance()
                 val myRef = database.getReference("General Waste")
-                str += " No"
-                myRef.child("2").setValue(str)
-
-
+                str += " Unsegragated"
+                myRef.child("Available").setValue(str)*/
             }
+
             if (c3.isChecked){
-                var str: String = ""
-                val database = FirebaseDatabase.getInstance()
+                val database = Firebase.database
                 val myRef = database.getReference("General Waste")
-                str += " Not Applicable"
-                myRef.child("3").setValue(str)
-
-
+                var str: String = ""
+                str += "Not Available"
+                myRef.child("Not Available").setValue("No")
             }
+
           /*  if (c4.isChecked){
                 str += "Infected Plastics: Yes"
                 myRef.setValue(str)
@@ -186,24 +180,24 @@ class BioMedicalWasteAudit : AppCompatActivity() {
                 str += "Glassware: Not Applicable"
                 myRef.setValue(str)
             }*/
-        })
+        }
 
 
 
         firebaseAuth = FirebaseAuth.getInstance()
 
-       // checkUser()
+        checkUser()
 
        //logoutbtnclick logout user
-       /* binding.logout.setOnClickListener{
+        binding.logout.setOnClickListener{
            firebaseAuth.signOut()
            checkUser()
-        }*/
+        }
     }
 
 
 
-    /*  private fun checkUser() {
+      private fun checkUser() {
           //get current user
           val firebaseUser = firebaseAuth.currentUser
           if(firebaseUser==null) {
@@ -212,7 +206,7 @@ class BioMedicalWasteAudit : AppCompatActivity() {
               finish()
           }
 
-      }*/
+      }
 
 }
 
