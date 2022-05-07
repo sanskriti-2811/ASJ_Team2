@@ -18,10 +18,6 @@ class SelectChoice_Page : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val card2 = findViewById<CardView>(R.id.HandHygiene)
-        card1.setOnClickListener{
-            val intent = Intent(this, HandHygiene::class.java)
-            startActivity(intent)
-        }
+
     }
 }
