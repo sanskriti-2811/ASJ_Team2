@@ -12,11 +12,24 @@ class SelectChoice_Page : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_select_choice_page)
 
+        val card2 = findViewById<CardView>(R.id.HandHygiene)
+
         val card1 = findViewById<CardView>(R.id.BioMedicalWaste)
+
+
         card1.setOnClickListener{
             val intent = Intent(this, WardsPage::class.java)
             startActivity(intent)
         }
+
+
+        card2.setOnClickListener{
+            val intent = Intent(this, HandHygiene::class.java)
+            startActivity(intent)
+        }
+
+
+
 
 
     }
