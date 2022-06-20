@@ -5,4 +5,9 @@
     <string name="get_otp">GET OTP</string>
     <string name="enter_otp">Enter OTP</string>
     <string name="did_t_get_otp_resend">Did\'t get OTP ? <b>Resend</b></string>
+    <string name="ques">1/10</string>
+    <string name="ques1">Question will come here</string>
+    <string name="ques3">Question will come here</string>
+    <string name="name">Name of Healthcare Worker </string>
+    <string name="wid">Name of Healthcare Worker</string>
 </resources>
