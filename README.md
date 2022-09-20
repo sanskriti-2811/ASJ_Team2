@@ -1,5 +1,4 @@
-# Android Study Jam Challenge 2022
-Medical App
+## Medical App
 
 <b> Problem Statement: </b>
 
